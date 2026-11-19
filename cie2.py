@@ -1,3 +1,4 @@
+import sys
 def largest(a, b, c):
     
   
@@ -8,8 +9,8 @@ def largest(a, b, c):
     else:
         print("c is largest")
 
-a = int(input("enter the first number"))
-b = int(input("enter the second number"))
-c = int(input("enter the second number"))
+a = int(sys.argv[1])
+b = int(sys.argv[2])
+c = int(sys.argv[3])
 largest(a, b, c)
 
