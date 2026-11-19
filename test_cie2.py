@@ -1,4 +1,4 @@
-from largest import largest
+from cie2 import largest
 
 def test_first():
     assert largest(30, 20, 10) == 30
